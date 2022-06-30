@@ -22,10 +22,10 @@ public class Main {
             }
         }
 
-        for (int i = 0; i < n; i++) { // Imprimindo os valores armazenados em formato de matriz.
-            System.out.println("\t");
+        for (int i = 0; i < n; i++) {
+            System.out.println(); // Realizando a quebra de linha
             for (int j = 0; j < m; j++) {
-                System.out.print(matrix[i][j] + " ");
+                System.out.print(matrix[i][j] + "  "); // Imprimindo os valores armazenados em formato de matriz.
             }
         }
 
